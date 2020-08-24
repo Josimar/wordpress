@@ -18,23 +18,23 @@
  * @package WordPress
  */
 
-// ** Configurações do MySQL - Você pode pegar estas informações com o serviço de hospedagem ** //
-/** O nome do banco de dados do WordPress */
-define( 'DB_NAME', 'controle' );
+// ** MySQL settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
+define( 'DB_NAME', 'bitnami_wordpress' );
 
-/** Usuário do banco de dados MySQL */
-define( 'DB_USER', 'jbsappuser' );
+/** MySQL database username */
+define( 'DB_USER', 'bn_wordpress' );
 
-/** Senha do banco de dados MySQL */
-define( 'DB_PASSWORD', '4A35iUKmz3nkn7s' );
+/** MySQL database password */
+define( 'DB_PASSWORD', 'af61a3adc3' );
 
-/** Nome do host do MySQL */
-define( 'DB_HOST', 'localhost' );
+/** MySQL hostname */
+define( 'DB_HOST', 'localhost:3306' );
 
-/** Charset do banco de dados a ser usado na criação das tabelas. */
-define( 'DB_CHARSET', 'utf8mb4' );
+/** Database Charset to use in creating database tables. */
+define( 'DB_CHARSET', 'utf8' );
 
-/** O tipo de Collate do banco de dados. Não altere isso se tiver dúvidas. */
+/** The Database Collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
 /**#@+
@@ -50,14 +50,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'Zh|4M=$yV}Q^0#G)laaS5q65Y9_AoQS+`TmhOo0rOr<9oS9y#uuYP/I_j3@{A=In' );
-define( 'SECURE_AUTH_KEY',  'i//YKzV,s(Nu5_iI%n}y]oYj?;t$LineS_<nfGoh`>{x$H.HVXDb=E|OVZ_aC[#c' );
-define( 'LOGGED_IN_KEY',    '}[=TJ~S1P_w+&P5B?Q4PR40/)PC9BK,r(h/yua32kBFbRaM4%1`(d([MHcCM_Mty' );
-define( 'NONCE_KEY',        '0zi={^!.aX4wQzP#Fg4+8m31TH;[.U<=E8OoxgUF3L.Hrt53HAK:b85yFHk{gZ`9' );
-define( 'AUTH_SALT',        '8!;c59u6b;~N?jtA@)5.D$A?.Xj`6r5isORk1;?Y9Rvs@-<esXn*g=G]e-]3B$S#' );
-define( 'SECURE_AUTH_SALT', 'pBG[,Z~X~JX>=J3mCh$Y<{L4RgcA~^WGi.n?,+h*R+?}n=OzO9#j7`z-EuA(o&[=' );
-define( 'LOGGED_IN_SALT',   'U<F7;_9#o!3lUIzJO>Mbs%|=`X:Z6v=K2Rq8|7Iw;.<*I2`Y{~)8Beui.,T(jU}9' );
-define( 'NONCE_SALT',       'Uw$cvD{UAY)JX/-0)#zQ{3[TD,t1h}.lKSEv9^IKa/z:ohjG*DIk05lprQ&h_C]E' );
+define('AUTH_KEY', '94adf5f649ba7a74de6c8258d74512c7dee0e0e093992467daff6ae88c997957');
+define('SECURE_AUTH_KEY', 'e7cf527fa8dee5225802ed92a3787b7498907d4ab79f9d2f5b6843267aa64368');
+define('LOGGED_IN_KEY', '85fee487cc45b7782780b66785dda24ffdd8a9ff063f4b4077595bff2d3b53c8');
+define('NONCE_KEY', '68de9f1f2820e6fc9bef0b0f15f456a3a33d8923012bfae41e9fd521ab76d5fe');
+define('AUTH_SALT', 'e199727b4982f6ae662186d39decf7d1656615bb29529a01384401e68ac51127');
+define('SECURE_AUTH_SALT', '25f1b187506865353e82b5786c7c02915b20c6c4301e01375f1f690306309476');
+define('LOGGED_IN_SALT', '099c490eb91ccef4570ac33a3db2a76d32eddf043fd257c4c74774bc7ad9e430');
+define('NONCE_SALT', 'c22f8c58a247f7b31f1671dbf7dfb9105d8319c8522db9c3d2864f82aeb1bc32');
 
 /**#@-*/
 
